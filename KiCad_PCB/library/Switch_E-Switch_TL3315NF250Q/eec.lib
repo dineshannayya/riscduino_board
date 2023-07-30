@@ -1,0 +1,55 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# E-Switch TL3315NF250Q
+#
+DEF TL3315NF250Q SW 0 40 Y Y 1 L N
+F0 "SW" 0 100 50 H V L CNN 
+F1 "TL3315NF250Q" 0 200 50 H V L CNN 
+F2 "E-Switch-TL3315NF250Q-0-0-*" 0 300 50 H I L CNN 
+F3 "https://www.e-switch.com/system/asset/product_line/data_sheet/162/TL3315.pdf" 0 400 50 H I L CNN 
+F4 "Switch" 0 500 50 H I L CNN "category"
+F5 "50mA" 0 600 50 H I L CNN "contact current rating"
+F6 "200mΩ" 0 700 50 H I L CNN "contact resistance"
+F7 "Electromechanical" 0 800 50 H I L CNN "device class L1"
+F8 "Switches" 0 900 50 H I L CNN "device class L2"
+F9 "Tactile Switches" 0 1000 50 H I L CNN "device class L3"
+F10 "SWITCH TACTILE SPST-NO 0.05A 15V" 0 1100 50 H I L CNN "digikey description"
+F11 "EG4622CT-ND" 0 1200 50 H I L CNN "digikey part number"
+F12 "200000Cycles" 0 1300 50 H I L CNN "electromechanical life"
+F13 "http://spec_sheets.e-switch.com/specs/P010338.pdf" 0 1400 50 H I L CNN "footprint url"
+F14 "0.85mm" 0 1500 50 H I L CNN "height"
+F15 "yes" 0 1600 50 H I L CNN "lead free"
+F16 "557f36bda5509fb9" 0 1700 50 H I L CNN "library id"
+F17 "E-Switch" 0 1800 50 H I L CNN "manufacturer"
+F18 "TL3315 Series SPST 2.5 N Round Button J-Bend SMT Low Profile Tactile Switch" 0 1900 50 H I L CNN "mouser description"
+F19 "612-TL3315NF250Q" 0 2000 50 H I L CNN "mouser part number"
+F20 "250gf" 0 2100 50 H I L CNN "operating force"
+F21 "SMT_TSW_4MM5_4MM5" 0 2200 50 H I L CNN "package"
+F22 "yes" 0 2300 50 H I L CNN "rohs"
+F23 "0.05mm" 0 2400 50 H I L CNN "standoff height"
+F24 "+70°C" 0 2500 50 H I L CNN "temperature range high"
+F25 "-20°C" 0 2600 50 H I L CNN "temperature range low"
+F26 "SPST-NO" 0 2700 50 H I L CNN "throw configuration"
+F27 "15V" 0 2800 50 H I L CNN "voltage rating DC"
+DRAW
+X 1 1 100 0 100 R 40 0 1 1 P 
+X 2 2 700 0 100 L 40 0 1 1 P 
+X 3 3 100 -200 100 R 40 0 1 1 P 
+X 4 4 700 -200 100 L 40 0 1 1 P 
+C 330 -100 20 1 1 0 N
+C 470 -100 20 1 1 0 N
+P 2 1 1 0 310 -50 490 -50 N
+P 2 1 1 0 370 -50 370 -10 N
+P 2 1 1 0 370 -10 430 -10 N
+P 2 1 1 0 430 -10 430 -40 N
+P 2 1 1 0 310 -100 240 -100 N
+P 2 1 1 0 490 -100 560 -100 N
+P 2 1 1 0 200 0 200 -200 N
+P 2 1 1 0 600 0 600 -200 N
+P 2 1 1 0 560 -100 590 -100 N
+P 2 1 1 0 240 -100 200 -100 N
+ENDDRAW
+ENDDEF
+#
+# End Library
