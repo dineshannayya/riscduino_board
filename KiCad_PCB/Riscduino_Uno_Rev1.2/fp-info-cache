@@ -1,4 +1,11 @@
-21630241267445949
+21655610123218745
+ATMEGA8-16
+DIP793W45P254L3479H457Q28
+
+
+0
+28
+28
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -83068,6 +83075,104 @@ Resistor Radial_Power series Radial pin pitch 7.37mm 10W length 16.1mm width 9mm
 0
 2
 2
+Riscduino
+Arduino_MountingHole_3.2mm_M3
+Mounting Hole 3.2mm, no annular, M3
+mounting hole 3.2mm no annular m3
+0
+0
+0
+Riscduino
+Arduino_UNO_R3_WithMountingHoles
+Arduino UNO R3, http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf
+Arduino UNO R3
+0
+32
+32
+Riscduino
+Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm
+Abracon Miniature Ceramic Smd Crystal ABM8G http://www.abracon.com/Resonators/ABM8G.pdf, 3.2x2.5mm^2 package
+SMD SMT crystal
+0
+4
+4
+Riscduino
+LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+LED handsolder
+0
+2
+2
+Riscduino
+Potentiometer_Bourns_3296W_Vertical
+Potentiometer, vertical, Bourns 3296W, https://www.bourns.com/pdfs/3296.pdf
+Potentiometer vertical Bourns 3296W
+0
+3
+3
+Riscduino
+RISCDUINO_QFN-64-1EP_9x9mm_P0.5mm_EP7.65x7.65mm_NEW
+QFN, 64 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf (page 415)), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+81
+65
+Riscduino
+RISCDUINO_QFN-64-1EP_9x9mm_P0.5mm_EP7.65x7.65mm_Ver1.1
+QFN, 64 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf (page 415)), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+81
+65
+Riscduino
+Riscduino_UNO_R0_WithMountingHoles
+Arduino UNO R2, http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf
+Arduino UNO R2
+0
+0
+0
+Riscduino
+SW_SPST_EVPBF_TS4550TP
+Light Touch Switch
+
+0
+4
+2
+Riscduino.Library
+Arduino_MountingHole_3.2mm_M3
+Mounting Hole 3.2mm, no annular, M3
+mounting hole 3.2mm no annular m3
+0
+0
+0
+Riscduino.Library
+Arduino_UNO_R3_WithMountingHoles
+Arduino UNO R3, http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf
+Arduino UNO R3
+0
+32
+32
+Riscduino.Library
+Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm
+Abracon Miniature Ceramic Smd Crystal ABM8G http://www.abracon.com/Resonators/ABM8G.pdf, 3.2x2.5mm^2 package
+SMD SMT crystal
+0
+4
+4
+Riscduino.Library
+LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+LED handsolder
+0
+2
+2
+Riscduino.Library
+Potentiometer_Bourns_3296W_Vertical
+Potentiometer, vertical, Bourns 3296W, https://www.bourns.com/pdfs/3296.pdf
+Potentiometer vertical Bourns 3296W
+0
+3
+3
 Riscduino.Library
 RISCDUINO_QFN-64-1EP_9x9mm_P0.5mm_EP7.65x7.65mm_NEW
 QFN, 64 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf (page 415)), generated with kicad-footprint-generator ipc_noLead_generator.py

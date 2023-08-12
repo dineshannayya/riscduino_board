@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15239999999999998,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.4064,
-          "height": 1.03,
-          "width": 1.03
+          "drill": 3.2,
+          "height": 3.2,
+          "width": 3.2
         },
         "silk_line_width": 0.15239999999999998,
         "silk_text_italic": false,
@@ -444,7 +444,7 @@
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2032,
+        "track_width": 0.3048,
         "via_diameter": 0.7112,
         "via_drill": 0.4064,
         "wire_width": 12
@@ -490,11 +490,15 @@
       },
       {
         "netclass": "Power",
-        "pattern": "vdd2"
+        "pattern": "1V8_Ref"
       },
       {
         "netclass": "Power",
-        "pattern": "1V8_Ref"
+        "pattern": "+5VP"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "vccd2"
       }
     ]
   },
