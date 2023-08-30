@@ -1,0 +1,23 @@
+(footprint "Arduino_MountingHole_3.2mm_M3" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "Mounting Hole 3.2mm, no annular, M3")
+  (tags "mounting hole 3.2mm no annular m3")
+  (property "Sheetfile" "Riscduino_Uno.kicad_sch")
+  (property "Sheetname" "")
+  (property "ki_description" "Mounting Hole without connection")
+  (property "ki_keywords" "mounting hole")
+  (attr exclude_from_pos_files)
+  (fp_text reference "H1" (at 0 -2.667) (layer "F.SilkS") hide
+      (effects (font (size 1.016 1.016) (thickness 0.1524)))
+    (tstamp 501e9c98-4e90-4428-b86b-12b61ff83e28)
+  )
+  (fp_text value "MountingHole" (at 0 4.2) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 4b12accf-70d9-4304-b7f7-aa4173ad6dd8)
+  )
+  (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp a0f56319-448c-43be-82c7-0a860d7ec341)
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers "*.Cu" "*.Mask") (tstamp 9e6569ff-a34f-40b8-ba19-f481302e7414))
+)
