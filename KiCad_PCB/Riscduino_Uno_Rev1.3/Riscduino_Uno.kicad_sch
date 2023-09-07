@@ -4186,7 +4186,7 @@
     (uuid 9c6b49a9-6629-409f-86c7-80cce3541ffc)
   )
   (text_box "Reset Circuit"
-    (at 294.64 241.046 0) (size 124.46 50.8)
+    (at 294.64 234.95 0) (size 124.46 56.896)
     (stroke (width 0) (type default))
     (fill (type none))
     (effects (font (size 1.27 1.27)) (justify left top))
@@ -8234,7 +8234,7 @@
     (property "Reference" "U8" (at 363.22 259.08 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "APX811" (at 360.68 255.27 0)
+    (property "Value" "APX811-29UG-7" (at 365.76 270.51 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-143_Handsoldering" (at 355.6 270.51 0)
