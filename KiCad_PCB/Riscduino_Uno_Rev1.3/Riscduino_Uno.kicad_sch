@@ -4169,6 +4169,13 @@
     (effects (font (size 1.27 1.27)) (justify left top))
     (uuid 46708bd8-f67b-4c9e-a723-8637404c4eb7)
   )
+  (text_box "arduino_d11 and arduino_d12 connectivty to swapped to fix SOC Bug"
+    (at 401.32 367.538 0) (size 18.288 17.78)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid 5d861c26-ff71-4162-8c6c-8f947cca3741)
+  )
   (text_box "USER SRAM MEMORY I/F"
     (at 289.56 91.186 0) (size 144.526 67.056)
     (stroke (width 0) (type default))
@@ -4873,7 +4880,7 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "mprj_io_20" (shape bidirectional) (at 376.428 368.808 180) (fields_autoplaced)
+  (global_label "mprj_io_19" (shape bidirectional) (at 376.428 368.808 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 7b2ecf0b-895d-4adf-b8a2-97d06b2b5c6a)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 362.0696 368.808 0)
@@ -4964,7 +4971,7 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "mprj_io_19" (shape bidirectional) (at 376.428 371.348 180) (fields_autoplaced)
+  (global_label "mprj_io_20" (shape bidirectional) (at 376.428 371.348 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 924cb856-1063-498e-98b6-03f2fd25db3b)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 362.0696 371.348 0)
@@ -5658,7 +5665,7 @@
   (symbol (lib_id "Device:R") (at 201.422 266.7 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 041d4325-53c0-43d8-ba59-1a69660b496b)
-    (property "Reference" "R19" (at 199.39 264.16 90)
+    (property "Reference" "R20" (at 199.39 264.16 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0E" (at 202.946 264.414 90)
@@ -5675,7 +5682,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "R19") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -5810,7 +5817,7 @@
   (symbol (lib_id "Interface_USB:CH340C") (at 181.102 276.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0a53d84b-66df-49f1-9d85-a380c0945347)
-    (property "Reference" "U5" (at 183.2961 292.1 0)
+    (property "Reference" "U6" (at 183.2961 292.1 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CH340C" (at 183.2961 294.64 0)
@@ -5841,7 +5848,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "U5") (unit 1)
+          (reference "U6") (unit 1)
         )
       )
     )
@@ -5875,7 +5882,7 @@
   (symbol (lib_id "Device:R") (at 194.31 93.98 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0c0a42ed-918d-4da6-9d24-3dc07a5d80f9)
-    (property "Reference" "R10" (at 195.58 96.52 90)
+    (property "Reference" "R9" (at 195.58 96.52 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0E" (at 195.58 93.98 90)
@@ -5892,7 +5899,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "R10") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -5983,7 +5990,7 @@
   (symbol (lib_id "Device:R") (at 501.904 298.704 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0e98dffc-b4bc-449b-8647-2817caf16a40)
-    (property "Reference" "R15" (at 501.904 294.132 90)
+    (property "Reference" "R18" (at 501.904 294.132 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "470 Ohm" (at 501.904 296.672 90)
@@ -6000,7 +6007,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "R15") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -6009,7 +6016,7 @@
   (symbol (lib_id "Device:C") (at 198.12 284.48 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0ecc8d4e-3d66-4caa-b85f-3bf67463ab12)
-    (property "Reference" "C26" (at 198.12 278.13 90)
+    (property "Reference" "C27" (at 198.12 278.13 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1uF" (at 198.12 280.67 90)
@@ -6026,7 +6033,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "C26") (unit 1)
+          (reference "C27") (unit 1)
         )
       )
     )
@@ -6035,7 +6042,7 @@
   (symbol (lib_id "Connector:Conn_01x06_Pin") (at 298.45 341.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0f91fe19-eddf-41ad-8d10-01ac566f8781)
-    (property "Reference" "J2" (at 299.085 330.9874 0)
+    (property "Reference" "J1" (at 299.085 330.9874 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x06_Pin" (at 299.085 333.5274 0)
@@ -6056,7 +6063,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "J2") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -6065,7 +6072,7 @@
   (symbol (lib_id "Library:Caravel") (at 129.54 80.01 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1265bb03-510d-496c-bea3-0342bd1d2f81)
-    (property "Reference" "U3" (at 139.7 76.2 0)
+    (property "Reference" "U4" (at 139.7 76.2 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Riscduino" (at 142.24 80.01 0)
@@ -6148,7 +6155,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "U3") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -6361,7 +6368,7 @@
   (symbol (lib_id "Device:C") (at 44.196 257.556 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 234de388-d1bb-472c-ae61-470fa27c0e65)
-    (property "Reference" "C15" (at 44.45 255.524 0)
+    (property "Reference" "C16" (at 44.45 255.524 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 37.846 260.096 0)
@@ -6378,7 +6385,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "C15") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -6412,7 +6419,7 @@
   (symbol (lib_id "Device:C") (at 49.784 257.302 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 272ba5f0-b56f-4e1d-a911-20958429cb3f)
-    (property "Reference" "C20" (at 51.054 255.27 0)
+    (property "Reference" "C21" (at 51.054 255.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 50.546 260.096 0)
@@ -6429,7 +6436,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "C20") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
     )
@@ -6538,7 +6545,7 @@
   (symbol (lib_id "Library:C") (at 189.23 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2d483d4a-796a-4026-a1cc-d305f56f012b)
-    (property "Reference" "C10" (at 194.31 87.63 0)
+    (property "Reference" "C11" (at 194.31 87.63 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1uf" (at 193.04 90.17 0)
@@ -6555,7 +6562,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "C10") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -6589,7 +6596,7 @@
   (symbol (lib_id "Device:R") (at 332.994 259.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 31c8ee62-744d-4998-bf7c-90ab104362bb)
-    (property "Reference" "R1" (at 335.026 258.445 0)
+    (property "Reference" "R13" (at 335.026 258.445 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 335.026 260.985 0)
@@ -6606,7 +6613,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "R1") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -6665,7 +6672,7 @@
   (symbol (lib_id "Device:C") (at 148.59 253.492 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 32ece5e3-825c-47a9-997a-5d9f0ae43bdd)
-    (property "Reference" "C16" (at 149.098 251.714 0)
+    (property "Reference" "C17" (at 149.098 251.714 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 143.764 256.54 0)
@@ -6682,7 +6689,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "C16") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -6716,7 +6723,7 @@
   (symbol (lib_id "Device:R") (at 201.422 269.24 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 34f74861-bb57-4941-b183-29918b9bfb1b)
-    (property "Reference" "R25" (at 199.898 271.78 90)
+    (property "Reference" "R26" (at 199.898 271.78 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0E" (at 203.454 272.034 90)
@@ -6733,7 +6740,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "R25") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
     )
@@ -6792,7 +6799,7 @@
   (symbol (lib_id "Device:R") (at 55.88 93.98 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 35c6620a-84fa-4859-8c37-44550737746c)
-    (property "Reference" "R7" (at 57.15 96.52 90)
+    (property "Reference" "R6" (at 57.15 96.52 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0E" (at 57.15 93.98 90)
@@ -6809,7 +6816,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "R7") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -6818,7 +6825,7 @@
   (symbol (lib_id "Memory_Flash:W25Q32JVSS") (at 346.964 198.882 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3619c0c9-6ec8-413f-8357-6f1f2f43549c)
-    (property "Reference" "U1" (at 355.854 198.247 0)
+    (property "Reference" "U2" (at 355.854 198.247 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "W25Q32JVSS" (at 355.854 200.787 0)
@@ -6844,7 +6851,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "U1") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -6903,7 +6910,7 @@
   (symbol (lib_id "Device:R") (at 334.01 47.244 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3972f5e4-0574-471e-b9a5-27d6ce97b6e0)
-    (property "Reference" "R29" (at 333.248 44.45 90)
+    (property "Reference" "R32" (at 333.248 44.45 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 334.01 49.276 90)
@@ -6920,7 +6927,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "R29") (unit 1)
+          (reference "R32") (unit 1)
         )
       )
     )
@@ -7054,7 +7061,7 @@
   (symbol (lib_id "Regulator_Linear:LM1117S-ADJ") (at 62.23 252.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 41b290a0-db5d-4387-b647-e7545514a66c)
-    (property "Reference" "U6" (at 62.23 246.38 0)
+    (property "Reference" "U7" (at 62.23 246.38 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM1117S-ADJ" (at 62.23 248.92 0)
@@ -7072,7 +7079,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "U6") (unit 1)
+          (reference "U7") (unit 1)
         )
       )
     )
@@ -7106,7 +7113,7 @@
   (symbol (lib_id "Device:R") (at 48.26 248.92 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 43a1a847-571d-479b-a9e1-8c4d8a5f6674)
-    (property "Reference" "R8" (at 45.72 247.396 90)
+    (property "Reference" "R7" (at 45.72 247.396 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0E" (at 49.53 248.92 90)
@@ -7123,7 +7130,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "R8") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -7132,7 +7139,7 @@
   (symbol (lib_id "Device:R") (at 318.77 47.244 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 442708e6-5b8a-42c3-afe4-d3f1f2c20ce3)
-    (property "Reference" "R5" (at 317.5 44.45 90)
+    (property "Reference" "R4" (at 317.5 44.45 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 319.024 49.276 90)
@@ -7149,7 +7156,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "R5") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -7158,7 +7165,7 @@
   (symbol (lib_id "Device:C") (at 47.498 210.566 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 454cbf9a-2234-4489-973f-c9fb6eae0cb6)
-    (property "Reference" "C19" (at 48.514 208.534 0)
+    (property "Reference" "C20" (at 48.514 208.534 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 41.148 213.106 0)
@@ -7175,7 +7182,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "C19") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
     )
@@ -7309,7 +7316,7 @@
   (symbol (lib_id "Library:C") (at 83.82 105.41 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4a1398e1-1b00-42b6-a7e7-8faaa0e2e883)
-    (property "Reference" "C9" (at 87.63 105.41 90)
+    (property "Reference" "C10" (at 87.63 105.41 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1uf" (at 78.74 105.664 90)
@@ -7326,7 +7333,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "C9") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -7385,7 +7392,7 @@
   (symbol (lib_id "Memory_Flash:W25Q32JVSS") (at 347.726 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4e5c38a3-eb16-4074-9678-ff0413bfbc40)
-    (property "Reference" "U2" (at 356.108 128.905 0)
+    (property "Reference" "U3" (at 356.108 128.905 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "23LC1024-I/P " (at 356.108 131.445 0)
@@ -7411,7 +7418,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "U2") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -7622,7 +7629,7 @@
   (symbol (lib_id "Device:R") (at 321.31 47.244 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 61f18ff7-bd68-4642-a70b-405605c6715a)
-    (property "Reference" "R11" (at 320.294 44.45 90)
+    (property "Reference" "R10" (at 320.294 44.45 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 321.564 49.276 90)
@@ -7639,7 +7646,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "R11") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -7725,7 +7732,7 @@
   (symbol (lib_id "Device:R") (at 178.562 254 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 690457dd-56be-46a2-949a-0d91a5316b02)
-    (property "Reference" "R24" (at 176.022 254 90)
+    (property "Reference" "R25" (at 176.022 254 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0E" (at 178.562 254 90)
@@ -7742,7 +7749,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "R24") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
     )
@@ -7776,7 +7783,7 @@
   (symbol (lib_id "Library:C") (at 171.196 101.092 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6cefd760-14a7-4301-a928-4cef8eb0bbc1)
-    (property "Reference" "C5" (at 171.196 104.902 90)
+    (property "Reference" "C8" (at 171.196 104.902 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1uf" (at 171.196 107.442 90)
@@ -7793,7 +7800,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "C5") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -7852,7 +7859,7 @@
   (symbol (lib_id "Device:R") (at 374.396 271.78 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 70f9ba4a-e132-4132-875e-c6f22e62f87e)
-    (property "Reference" "R32" (at 374.396 266.7 90)
+    (property "Reference" "R11" (at 374.396 266.7 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0E-DNI" (at 374.396 269.24 90)
@@ -7869,7 +7876,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "R32") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -7929,7 +7936,7 @@
   (symbol (lib_id "Device:C") (at 80.518 311.912 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 73cc34b7-59c7-4d2b-9cc9-6e31bbd2bbe7)
-    (property "Reference" "C25" (at 80.518 305.562 90)
+    (property "Reference" "C26" (at 80.518 305.562 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1uF" (at 80.518 308.102 90)
@@ -7946,7 +7953,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "C25") (unit 1)
+          (reference "C26") (unit 1)
         )
       )
     )
@@ -8039,7 +8046,7 @@
   (symbol (lib_id "Device:C") (at 84.328 256.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 77115908-2596-4ec7-be88-321e989a0389)
-    (property "Reference" "C17" (at 79.248 254.762 0)
+    (property "Reference" "C18" (at 79.248 254.762 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 78.994 259.08 0)
@@ -8056,7 +8063,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "C17") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
     )
@@ -8091,7 +8098,7 @@
   (symbol (lib_id "Device:C") (at 158.242 253.492 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7cdeb0fb-a1eb-4040-8463-80e5c716f7d2)
-    (property "Reference" "C22" (at 159.512 251.206 0)
+    (property "Reference" "C23" (at 159.512 251.206 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 152.908 256.286 0)
@@ -8108,7 +8115,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "C22") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
     )
@@ -8117,7 +8124,7 @@
   (symbol (lib_id "Memory_Flash:W25Q32JVSS") (at 347.726 62.738 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7e1bae16-da08-41eb-90de-91b1fe721d20)
-    (property "Reference" "U7" (at 356.616 62.103 0)
+    (property "Reference" "U8" (at 356.616 62.103 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "W25Q32JVSS" (at 356.616 64.643 0)
@@ -8143,7 +8150,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "U7") (unit 1)
+          (reference "U8") (unit 1)
         )
       )
     )
@@ -8152,7 +8159,7 @@
   (symbol (lib_id "Device:R") (at 334.01 114.046 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 802d50be-4979-4ed5-808a-44273ad30f9a)
-    (property "Reference" "R18" (at 333.248 111.252 90)
+    (property "Reference" "R19" (at 333.248 111.252 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 334.01 116.078 90)
@@ -8169,7 +8176,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "R18") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -8283,7 +8290,7 @@
   (symbol (lib_id "Power_Supervisor:MIC811TUY") (at 353.06 262.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 84ced052-8e13-4340-bc7a-fc1dc9211825)
-    (property "Reference" "U8" (at 363.22 259.08 0)
+    (property "Reference" "U1" (at 363.22 259.08 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "APX811-29UG-7" (at 344.424 271.78 0)
@@ -8302,7 +8309,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "U8") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -8311,7 +8318,7 @@
   (symbol (lib_id "Device:R") (at 502.412 325.628 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 85120fc1-c993-4dc3-9821-916083efd691)
-    (property "Reference" "R17" (at 502.412 320.802 90)
+    (property "Reference" "R16" (at 502.412 320.802 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "470 Ohm" (at 502.412 323.342 90)
@@ -8328,7 +8335,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "R17") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -8337,7 +8344,7 @@
   (symbol (lib_id "Device:C") (at 90.932 256.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 85559445-8714-4aba-9b94-36701cc45a4c)
-    (property "Reference" "C18" (at 86.868 254.508 0)
+    (property "Reference" "C19" (at 86.868 254.508 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF" (at 92.202 259.588 0)
@@ -8354,7 +8361,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "C18") (unit 1)
+          (reference "C19") (unit 1)
         )
       )
     )
@@ -8388,7 +8395,7 @@
   (symbol (lib_id "Library:C") (at 153.416 33.782 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 86cd15c7-28b0-418e-bd04-2b3ca2fa3572)
-    (property "Reference" "C24" (at 155.956 31.242 0)
+    (property "Reference" "C25" (at 155.956 31.242 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1uf" (at 157.226 36.322 0)
@@ -8405,7 +8412,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "C24") (unit 1)
+          (reference "C25") (unit 1)
         )
       )
     )
@@ -8623,7 +8630,7 @@
   (symbol (lib_id "Device:R") (at 503.682 310.896 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8f87cfbb-db58-4e42-8830-1a1bfb52b6b9)
-    (property "Reference" "R26" (at 503.682 306.578 90)
+    (property "Reference" "R27" (at 503.682 306.578 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "470 Ohm" (at 503.682 309.118 90)
@@ -8640,7 +8647,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "R26") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
     )
@@ -8649,7 +8656,7 @@
   (symbol (lib_id "Library:C") (at 127 139.7 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 91442ee0-759a-44cd-8225-95a0e71fd3f2)
-    (property "Reference" "C11" (at 123.19 139.7 90)
+    (property "Reference" "C5" (at 123.19 139.7 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1uf" (at 120.65 139.7 90)
@@ -8666,7 +8673,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "C11") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -8875,7 +8882,7 @@
   (symbol (lib_id "Library:C") (at 189.23 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a14271f4-f4ef-468f-bdff-22257e833f34)
-    (property "Reference" "C8" (at 194.31 69.85 0)
+    (property "Reference" "C9" (at 194.31 69.85 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1uf" (at 193.04 72.39 0)
@@ -8892,7 +8899,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "C8") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -8927,7 +8934,7 @@
   (symbol (lib_id "Device:R") (at 502.158 304.8 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a316b7a9-2102-4c85-bed7-ea1d04cc00d5)
-    (property "Reference" "R28" (at 502.158 300.482 90)
+    (property "Reference" "R29" (at 502.158 300.482 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "470 Ohm" (at 502.158 303.022 90)
@@ -8944,7 +8951,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "R28") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
     )
@@ -8979,7 +8986,7 @@
   (symbol (lib_id "Device:R") (at 503.428 318.77 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a461beb0-cc94-43fe-b7b6-dc8fb0fc6ad9)
-    (property "Reference" "R27" (at 503.428 313.944 90)
+    (property "Reference" "R28" (at 503.428 313.944 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "470 Ohm" (at 503.428 316.484 90)
@@ -8996,7 +9003,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "R27") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
     )
@@ -9005,7 +9012,7 @@
   (symbol (lib_id "Device:C") (at 369.57 252.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a581334d-0d4a-4e76-94b5-34d21d78d592)
-    (property "Reference" "C28" (at 373.38 251.46 0)
+    (property "Reference" "C3" (at 373.38 251.46 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uf" (at 373.38 254 0)
@@ -9022,7 +9029,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "C28") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -9132,7 +9139,7 @@
   (symbol (lib_id "Device:R") (at 71.374 258.064 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ad9d0cb0-a0d9-4a8b-87bf-6376f0cdd5c7)
-    (property "Reference" "R13" (at 73.152 259.08 0)
+    (property "Reference" "R15" (at 73.152 259.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "470 Ohm" (at 72.644 262.128 0)
@@ -9149,7 +9156,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "R13") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -9216,7 +9223,7 @@
   (symbol (lib_id "Device:C") (at 332.994 266.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b00175c8-9fa1-48fd-9eac-daa9a75c19e3)
-    (property "Reference" "C3" (at 333.502 264.922 0)
+    (property "Reference" "C15" (at 333.502 264.922 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 328.168 269.748 0)
@@ -9233,7 +9240,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "C3") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -9274,7 +9281,7 @@
   (symbol (lib_id "Device:R") (at 328.168 183.388 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b032a8f9-eb26-484d-a74b-144bd3e51cd7)
-    (property "Reference" "R21" (at 327.152 180.848 90)
+    (property "Reference" "R24" (at 327.152 180.848 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 328.422 185.42 90)
@@ -9291,7 +9298,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "R21") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -9300,7 +9307,7 @@
   (symbol (lib_id "Device:R") (at 323.85 47.244 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b1c516a9-af5c-4a34-9601-907ece2e4d34)
-    (property "Reference" "R20" (at 322.834 44.704 90)
+    (property "Reference" "R21" (at 322.834 44.704 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 324.104 49.276 90)
@@ -9317,7 +9324,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "R20") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -9326,7 +9333,7 @@
   (symbol (lib_id "Device:C") (at 170.942 259.08 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b514ab9e-fc5b-4130-8eb4-83f3cd482722)
-    (property "Reference" "C27" (at 170.942 253.492 90)
+    (property "Reference" "C28" (at 170.942 253.492 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1uF" (at 170.942 256.032 90)
@@ -9343,7 +9350,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "C27") (unit 1)
+          (reference "C28") (unit 1)
         )
       )
     )
@@ -9452,7 +9459,7 @@
   (symbol (lib_id "Regulator_Linear:LM1117MP-3.3") (at 67.31 206.248 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bcd46815-e12b-4e8e-9f0d-3b0231f533da)
-    (property "Reference" "U4" (at 67.31 200.66 0)
+    (property "Reference" "U5" (at 67.31 200.66 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM1117MP-3.3" (at 67.31 203.2 0)
@@ -9473,7 +9480,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "U4") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -9508,7 +9515,7 @@
   (symbol (lib_id "Device:R") (at 48.26 245.11 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bf7b87d7-14df-4a2a-bfae-894d0fe03da2)
-    (property "Reference" "R9" (at 50.292 243.078 90)
+    (property "Reference" "R8" (at 50.292 243.078 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNI" (at 49.53 245.11 90)
@@ -9525,7 +9532,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "R9") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -9584,7 +9591,7 @@
   (symbol (lib_id "Device:R") (at 502.666 332.994 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ca72e24a-6181-486b-bc72-1d33963b0e3f)
-    (property "Reference" "R16" (at 502.666 328.676 90)
+    (property "Reference" "R17" (at 502.666 328.676 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "470 Ohm" (at 502.666 331.216 90)
@@ -9601,7 +9608,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "R16") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -9685,7 +9692,7 @@
   (symbol (lib_id "Device:R") (at 59.69 59.69 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ce734cb5-b0ec-46c6-ba2e-a4c27d741c60)
-    (property "Reference" "R6" (at 60.96 62.23 90)
+    (property "Reference" "R5" (at 60.96 62.23 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0E" (at 60.96 59.69 90)
@@ -9702,7 +9709,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "R6") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -9761,7 +9768,7 @@
   (symbol (lib_id "Device:R") (at 320.548 183.388 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d48ac2f4-b727-47e4-a34b-fbfb47a66c17)
-    (property "Reference" "R4" (at 319.532 180.594 90)
+    (property "Reference" "R2" (at 319.532 180.594 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 320.802 185.42 90)
@@ -9778,7 +9785,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "R4") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -9862,7 +9869,7 @@
   (symbol (lib_id "Device:R") (at 318.008 183.388 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d90ddcdb-52af-4c7b-8708-a6be7e6b8c27)
-    (property "Reference" "R2" (at 316.738 180.594 90)
+    (property "Reference" "R1" (at 316.738 180.594 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 318.262 185.42 90)
@@ -9879,7 +9886,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "R2") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -9913,7 +9920,7 @@
   (symbol (lib_id "Device:R") (at 330.708 183.388 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid decde315-c8cc-4307-ac60-00497e83ba23)
-    (property "Reference" "R22" (at 329.692 180.594 90)
+    (property "Reference" "R23" (at 329.692 180.594 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 330.962 185.166 90)
@@ -9930,7 +9937,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "R22") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -10065,7 +10072,7 @@
   (symbol (lib_id "Device:R") (at 333.248 183.388 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f3681b52-6fe3-489b-afe8-896c5e2899e0)
-    (property "Reference" "R23" (at 332.486 180.594 90)
+    (property "Reference" "R22" (at 332.486 180.594 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 333.248 185.42 90)
@@ -10082,7 +10089,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "R23") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -10216,7 +10223,7 @@
   (symbol (lib_id "Library:C") (at 97.536 33.782 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fb59a7de-d739-4393-baa6-db24be2ebb63)
-    (property "Reference" "C23" (at 100.076 31.242 0)
+    (property "Reference" "C24" (at 100.076 31.242 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1uf" (at 101.346 36.322 0)
@@ -10233,7 +10240,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "C23") (unit 1)
+          (reference "C24") (unit 1)
         )
       )
     )
@@ -10293,7 +10300,7 @@
   (symbol (lib_id "Device:C") (at 55.88 211.074 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fd633a8a-de90-4733-ade0-81df65c395e1)
-    (property "Reference" "C21" (at 56.134 209.042 0)
+    (property "Reference" "C22" (at 56.134 209.042 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 50.8 214.122 0)
@@ -10310,7 +10317,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "C21") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
     )
@@ -10345,7 +10352,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x03_Odd_Even") (at 175.26 381 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ffdca0cd-af49-463d-9c18-5cda97be0e3b)
-    (property "Reference" "J1" (at 176.53 372.872 0)
+    (property "Reference" "J2" (at 176.53 372.872 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ISP" (at 176.53 375.412 0)
@@ -10366,7 +10373,7 @@
     (instances
       (project "Riscduino_Uno"
         (path "/3385a618-de98-459b-bc8d-0b8733b3fac9"
-          (reference "J1") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
