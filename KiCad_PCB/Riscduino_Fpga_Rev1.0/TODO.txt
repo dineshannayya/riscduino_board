@@ -1,0 +1,7 @@
+1) JTAG Connector
+2) USB Host - USB Type A Female
+3) USB Device - Micro Usb Female
+4) Camera I/F
+
+
+https://www.waveshare.com/usb-to-uart-i2c-spi-jtag.htm
