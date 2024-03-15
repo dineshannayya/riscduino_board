@@ -4829,7 +4829,7 @@
         (effects (font (size 1.016 1.016) (thickness 0.1524)))
       (tstamp 4f6f8871-b3db-4f69-97ca-552a0ef87b6a)
     )
-    (fp_text value "Conn_02x06_Odd_Even" (at 1.27 15.03 90) (layer "F.Fab") hide
+    (fp_text value "Conn_02x06_Male_Header" (at 1.27 15.03 90) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e59314f9-68b7-440b-afe1-c4cd439099de)
     )
